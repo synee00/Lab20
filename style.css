@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+body {
+  font-family: Oxygen;
+  background-color: black;
+}
+#home {
+  background: url("https://res.cloudinary.com/synee/image/upload/v1506449459/blue-buildings_rpfslg.jpg")
+    no-repeat;
+  background-size: cover;
+  padding-bottom: 15%;
+  height: 650px;
+}
+
+.btn-default {
+  background-color: black;
+  border-color: black;
+  color: #3acaff;
+  margin-top: 2%;
+  opacity: 0.8;
+}
+#fcc-icon {
+  border-radius: 7px 7px 7px 7px;
+}
+.space {
+  padding-top: 20%;
+}
+
+.block {
+  background-color: black;
+  font-family: Playball;
+  color: white;
+  opacity: 0.8;
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: auto;
+}
+#section1 {
+  background: url("https://res.cloudinary.com/synee/image/upload/v1506462552/startup-593327_1920_ncprot.jpg")no-repeat;
+  background-size: cover;
+  padding-top: 8%;
+  padding-bottom: 10%;
+}
+p {
+  font-size: 1.5em;
+}
+#headshot {
+  width: 300px;
+  height: 300px;
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 150px 150px 150px 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#section2 {
+  background: url("https://res.cloudinary.com/synee/image/upload/v1506485581/caspar-rubin-224229_e5zzmd.jpg")
+    no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  overflow:auto;
+  color: white;
+  padding-top: 7%;
+  padding-bottom: 20%;
+}
+
+.polaroid {
+  width: 75%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+  margin-bottom: 25px;
+}
+.polaroid-img{
+  max-width: 100%;
+}
+.polaroid-container {
+  text-align: center;
+  padding: 10px 20px;
+  width: 500px;
+  background-color: gray;
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #3acaff;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  height: 20px;
+  padding-top: 1%;
+  text-align: center;
+  font-family: Playball;
+
+}
+.media-icon {
+  color: #3acaff;
+}
+.profile {
+  background-color: black;
+  font-family: Oxygen;
+  color: white;
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 15px 15px 15px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyright {
+  font-size: 1em;
+  color: gray;
+}
+.container {
+  background-color: black;
+  font-family: Playball;
+  color: white;
+  opacity: 0.8;
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row{
+  padding: 2%;
+}
+.row a{
+  color: white;
+}
